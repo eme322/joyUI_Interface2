@@ -119,9 +119,7 @@ export default function createAccount() {
   );
 }
    
-         /*
-            
-            {
+         /*  {
           <FormControl>
             <div style={{ margin: "20px 0" }}>
               <Name />
@@ -141,7 +139,6 @@ export default function createAccount() {
       </Card>
     </div>
   );
-}
-*/
+} /*
   
         

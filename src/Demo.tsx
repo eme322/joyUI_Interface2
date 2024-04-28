@@ -118,27 +118,3 @@ export default function createAccount() {
     </div>
   );
 }
-   
-         /*  {
-          <FormControl>
-            <div style={{ margin: "20px 0" }}>
-              <Name />
-            </div>
-            <div style={{ margin: "20px 0" }}>
-              <Email />
-            </div>
-            <div style={{ margin: "20px 0" }}>
-              <Password />
-            </div>
-            <div style={{ margin: "20px 0" }}>
-              <Create Account />
-            </div>
-          </FormControl>
-          }
-        </div>
-      </Card>
-    </div>
-  );
-} /*
-  
-        

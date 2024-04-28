@@ -7,7 +7,7 @@ import FormLabel from '@mui/joy/FormLabel';
 //import { InfoOutlined } from "@mui/icons-material";
 
 
-export default function NameInput() {
+export default function Name() {
   return (
     <FormControl>
       <FormLabel htmlFor="email-input">Name</FormLabel>

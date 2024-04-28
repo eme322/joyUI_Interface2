@@ -63,6 +63,7 @@ export default function createAccount() {
       >
           <div style={{ width: "100%", textAlign: "center" }}>
           <img id="logo" src="https://www.boardx.us/content/images/2023/11/BoardX-Logo.png" alt="BoardX Logo" />
+           
             <Typography 
             sx={{ 
               color: "black", 
@@ -71,7 +72,7 @@ export default function createAccount() {
               fontSize: '24px',
               fontWeight: 'bold',
             }} 
-            level="h4"
+            variant="h4"
           >
             Collaboration starts here 🚀
           </Typography>    

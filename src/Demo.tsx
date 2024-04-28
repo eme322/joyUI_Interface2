@@ -194,7 +194,7 @@ export default function CreateAccount() {
               fontWeight: 'bold',
               marginBottom: '20px',
             }}
-            level="h4"
+            variant="h4"
           >
             Collaboration starts here 🚀
           </Typography>

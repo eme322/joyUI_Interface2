@@ -6,7 +6,7 @@ import Name from "./components/Name";
 import Email from "./components/Email";
 import Password from "./components/Password";
 import AspectRatio from "@mui/joy/AspectRatio";
-import CreateAccount from "./components/LogInButton";
+import CreateAccount from "./components/CreateAccount";
 //import ForgotPassword from "./components/ForgotPassword";
 import { extendTheme } from "@mui/joy";
 import FormControl from "@mui/joy/FormControl";
@@ -21,7 +21,7 @@ const theme = extendTheme({colorSchemes: {
 },
 });
 
-export default function SignInSheet() {
+export default function createAccount() {
 
   const [email, setEmail] = React.useState('');
   const [error, setError] = React.useState(false);
@@ -75,10 +75,53 @@ export default function SignInSheet() {
             }} 
             level="h4"
           >
-            Collaboration starts here 👋
-            
+            Collaboration starts here 🚀
           </Typography>
-          {
+
+
+
+            
+      <Input placeholder="" fullWidth />
+      <Input placeholder="" fullWidth style={{ marginTop: '10px' }} />
+      <Input
+        placeholder=""
+        fullWidth
+        endDecorator={
+          <IconButton>
+            {/* Add visibility toggle button */}
+          </IconButton>
+        }
+        style={{ marginTop: '10px' }}
+      />
+      <FormControlLabel
+        control={<Checkbox />}
+        label="I agree to Terms of Service and Privacy Policy"
+        style={{ marginTop: '10px', alignSelf: 'start' }}
+      />
+      <Button fullWidth variant="contained" style={{ marginTop: '20px' }}>
+        Create Account
+      </Button>
+      <Typography variant="body2" style={{ marginTop: '20px' }}>
+        Already have an account?{' '}
+        <Link href="/sign-in" underline="hover">
+          Sign in instead
+        </Link>
+      </Typography>
+      <Typography variant="body2" style={{ margin: '20px 0' }}>
+        or
+      </Typography>
+
+       
+          <div style={{ width: "100%", textAlign: "center" }}>
+          <img id="logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/LinkedIn_logo_initials.png/640px-LinkedIn_logo_initials.png" alt="LinkedIn_logo" />
+            
+    </div>
+  );
+}
+   
+         /*
+            
+            {
           <FormControl>
             <div style={{ margin: "20px 0" }}>
               <Name />
@@ -99,6 +142,6 @@ export default function SignInSheet() {
     </div>
   );
 }
-
+*/
   
         

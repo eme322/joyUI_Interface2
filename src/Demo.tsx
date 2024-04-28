@@ -136,8 +136,15 @@ const theme = extendTheme({
 });
 
 export default function CreateAccount() {
-  // State hooks and function definitions
-  // ...
+  const [email, setEmail] = React.useState('');
+  const [error, setError] = React.useState(false);
+  const handleSubmit = () => {
+    if (!email.trim()) {
+      setError(true);
+    } else {
+      setError(false);
+    }
+  };
 
   return (
     <div
@@ -186,13 +193,11 @@ export default function CreateAccount() {
           >
             Collaboration starts here 🚀
           </Typography>
+          <Name />
+          <Email />
+          <Password />
 
-          {/* Assume NameInput, EmailInput, and PasswordInput are your input components */}
-          <NameInput />
-          <EmailInput />
-          <PasswordInput />
           
-          {/* Terms of Service and Privacy Policy checkbox */}
           <FormControlLabel
             control={<Checkbox />}
             label="I agree to Terms of Service and Privacy Policy"
@@ -218,7 +223,7 @@ export default function CreateAccount() {
             </Link>
           </Typography>
 
-          {/* LinkedIn logo and link */}
+          {/* LinkedIn logo*/}
           <Typography
             sx={{ margin: '20px 0' }}
             variant="body2"

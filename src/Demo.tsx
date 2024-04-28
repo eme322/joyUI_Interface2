@@ -114,14 +114,15 @@ export default function createAccount() {
 // joyUI_Interface1/src/Demo.tsx
 import * as React from "react";
 import Card from "@mui/joy/Card";
-import Typography from "@mui/joy/Typography";
+import Typography from '@mui/material/Typography';
+import Link from '@mui/material/Link';
+
 import Name from "./components/Name";
 import Email from "./components/Email"; 
 import Password from "./components/Password";
 import Checkbox from "@mui/material/Checkbox"; // Import from MUI material
 import FormControlLabel from "@mui/material/FormControlLabel"; // Import from MUI material
 import Button from "@mui/material/Button"; // Import from MUI material
-import Link from "@mui/material/Link"; // Import from MUI material
 import IconButton from "@mui/material/IconButton"; // Import from MUI material
 import { extendTheme } from "@mui/joy";
 
@@ -215,10 +216,7 @@ export default function CreateAccount() {
           
           {/* Sign in link */}
           
-          <Typography
-            sx={{ marginTop: '20px' }}
-           // variant="body2"
-         // >
+          <Typography sx={{ marginTop: '20px' }}
             Already have an account?{' '}
             <Link href="/sign-in" underline="hover">
               Sign in instead

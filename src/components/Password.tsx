@@ -1,6 +1,6 @@
 import * as React from 'react';
 import Input from '@mui/joy/Input';
-import FormControl from '@mui/joy/FormControl'; // Ensure this is imported
+import FormControl from '@mui/joy/FormControl';
 import FormLabel from '@mui/joy/FormLabel';
 import VisibilityIcon from '@mui/icons-material/Visibility';
 import VisibilityOffIcon from '@mui/icons-material/VisibilityOff';

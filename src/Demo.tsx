@@ -6,8 +6,8 @@ import Name from "./components/Name";
 import Email from "./components/Email";
 import Password from "./components/Password";
 import AspectRatio from "@mui/joy/AspectRatio";
+import Checkbox from "./components/Checkbox";
 import CreateAccount from "./components/CreateAccount";
-//import ForgotPassword from "./components/ForgotPassword";
 import { extendTheme } from "@mui/joy";
 import FormControl from "@mui/joy/FormControl";
 

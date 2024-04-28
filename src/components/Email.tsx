@@ -3,9 +3,8 @@ import Input from "@mui/joy/Input";
 import FormControl from '@mui/joy/FormControl';
 import FormLabel from '@mui/joy/FormLabel';
 
-//import FormHelperText from '@mui/joy/FormHelperText';
-//import { InfoOutlined } from "@mui/icons-material";
-
+import FormHelperText from '@mui/joy/FormHelperText';
+import { InfoOutlined } from "@mui/icons-material";
 
 export default function EmailInput() {
   return (

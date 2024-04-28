@@ -112,6 +112,7 @@ export default function createAccount() {
 
 
 // joyUI_Interface1/src/Demo.tsx
+// joyUI_Interface1/src/Demo.tsx
 import * as React from "react";
 import Card from "@mui/joy/Card";
 import Typography from '@mui/material/Typography';
@@ -120,10 +121,10 @@ import Link from '@mui/material/Link';
 import Name from "./components/Name";
 import Email from "./components/Email"; 
 import Password from "./components/Password";
-import Checkbox from "@mui/material/Checkbox"; // Import from MUI material
-import FormControlLabel from "@mui/material/FormControlLabel"; // Import from MUI material
-import Button from "@mui/material/Button"; // Import from MUI material
-import IconButton from "@mui/material/IconButton"; // Import from MUI material
+import Checkbox from "@mui/material/Checkbox";
+import FormControlLabel from "@mui/material/FormControlLabel";
+import Button from "@mui/material/Button";
+import IconButton from "@mui/material/IconButton";
 import { extendTheme } from "@mui/joy";
 
 const theme = extendTheme({
@@ -140,6 +141,7 @@ const theme = extendTheme({
 export default function CreateAccount() {
   const [email, setEmail] = React.useState('');
   const [error, setError] = React.useState(false);
+
   const handleSubmit = () => {
     if (!email.trim()) {
       setError(true);
@@ -164,7 +166,7 @@ export default function CreateAccount() {
         variant="solid"
         sx={{
           width: 450,
-          height: 'auto', // Changed to 'auto' to adapt based on content
+          height: 'auto',
           display: "flex",
           flexDirection: "column",
           alignItems: "center",
@@ -180,7 +182,7 @@ export default function CreateAccount() {
             id="logo"
             src="https://www.boardx.us/content/images/2023/11/BoardX-Logo.png"
             alt="BoardX Logo"
-            style={{ margin: '0 0 20px' }} // Add some margin to the logo
+            style={{ margin: '0 0 20px' }}
           />
           <Typography
             sx={{
@@ -189,7 +191,7 @@ export default function CreateAccount() {
               width: '100%',
               fontSize: '24px',
               fontWeight: 'bold',
-              marginBottom: '20px', // Add space below the typography
+              marginBottom: '20px',
             }}
             level="h4"
           >
@@ -198,46 +200,33 @@ export default function CreateAccount() {
           <Name />
           <Email />
           <Password />
-
-          
           <FormControlLabel
             control={<Checkbox />}
             label="I agree to Terms of Service and Privacy Policy"
             sx={{ alignSelf: 'start', marginTop: '10px' }}
           />
-          
-          {/* Create account button */}
           <Button
             variant="contained"
             sx={{ width: '100%', marginTop: '20px' }}
           >
             Create Account
           </Button>
-          
-          {/* Sign in link */}
-          
-          <Typography sx={{ marginTop: '20px' }}
+          <Typography sx={{ marginTop: '20px' }}>
             Already have an account?{' '}
             <Link href="/sign-in" underline="hover">
               Sign in instead
             </Link>
           </Typography>
-
-          {/* LinkedIn logo*/}
-          <Typography
-            sx={{ margin: '20px 0' }}
-            variant="body2"
-          >
+          <Typography sx={{ margin: '20px 0' }} variant="body2">
             or
           </Typography>
           <img
             src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/LinkedIn_logo_initials.png/640px-LinkedIn_logo_initials.png"
             alt="LinkedIn logo"
-            style={{ cursor: 'pointer' }} // Make it look clickable
+            style={{ cursor: 'pointer' }}
           />
         </div>
       </Card>
     </div>
   );
 }
-

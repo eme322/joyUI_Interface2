@@ -63,12 +63,11 @@ export default function CreateAccount() {
         }}
       >
         <div style={{ width: "100%", textAlign: "center" }}>
-          <img
-            id="logo"
+          <img id="logo"
             src="https://www.boardx.us/content/images/2023/11/BoardX-Logo.png"
-            alt="BoardX Logo"
-            style={{ margin: '0 0 20px' }}
-          />
+            alt="BoardX Logo"/>
+           // style={{ margin: '0 0 20px' }}
+        
           <Typography
             sx={{
               color: "black",
@@ -81,6 +80,9 @@ export default function CreateAccount() {
             variant="h4"
           >
             Collaboration starts here 🚀
+
+
+            
           </Typography>
           <Name />
           <Email />

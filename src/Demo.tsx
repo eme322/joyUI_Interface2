@@ -114,7 +114,11 @@ export default function createAccount() {
        
           <div style={{ width: "100%", textAlign: "center" }}>
           <img id="logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/LinkedIn_logo_initials.png/640px-LinkedIn_logo_initials.png" alt="LinkedIn_logo" />
-            
+          />
+        </div>
+      </Card>
     </div>
   );
 }
+
+            

@@ -115,8 +115,8 @@ export default function createAccount() {
 import * as React from "react";
 import Card from "@mui/joy/Card";
 import Typography from "@mui/joy/Typography";
-import EmailInput from "./components/EmailInput"; // Assuming EmailInput is the correct component name
-import PasswordInput from "./components/PasswordInput"; // Assuming PasswordInput is the correct component name
+import Email from "./components/Email"; 
+import Password from "./components/Password";
 import Checkbox from "@mui/material/Checkbox"; // Import from MUI material
 import FormControlLabel from "@mui/material/FormControlLabel"; // Import from MUI material
 import Button from "@mui/material/Button"; // Import from MUI material

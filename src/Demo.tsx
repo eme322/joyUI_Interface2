@@ -6,8 +6,8 @@ import Name from "./components/Name";
 import Email from "./components/Email";
 import Password from "./components/Password";
 import AspectRatio from "@mui/joy/AspectRatio";
-import LogInButton from "./components/LogInButton";
-import ForgotPassword from "./components/ForgotPassword";
+import CreateAccount from "./components/LogInButton";
+//import ForgotPassword from "./components/ForgotPassword";
 import { extendTheme } from "@mui/joy";
 import FormControl from "@mui/joy/FormControl";
 
@@ -75,11 +75,14 @@ export default function SignInSheet() {
             }} 
             level="h4"
           >
-            Welcome to BoardX! 👋
+            Collaboration starts here 👋
             
           </Typography>
           {
           <FormControl>
+            <div style={{ margin: "20px 0" }}>
+              <Name />
+            </div>
             <div style={{ margin: "20px 0" }}>
               <Email />
             </div>
@@ -87,10 +90,7 @@ export default function SignInSheet() {
               <Password />
             </div>
             <div style={{ margin: "20px 0" }}>
-              <LogInButton />
-            </div>
-            <div style={{ margin: "20px 0" }}>
-              <ForgotPassword />
+              <Create Account />
             </div>
           </FormControl>
           }

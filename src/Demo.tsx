@@ -217,8 +217,8 @@ export default function CreateAccount() {
           
           <Typography
             sx={{ marginTop: '20px' }}
-            variant="body2"
-          >
+           // variant="body2"
+         // >
             Already have an account?{' '}
             <Link href="/sign-in" underline="hover">
               Sign in instead

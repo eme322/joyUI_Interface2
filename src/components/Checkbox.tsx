@@ -1,10 +1,17 @@
 import * as React from 'react';
-import { ForgotPasswordLink } from './styles';
+import { Checkbox as MuiCheckbox, FormControlLabel } from '@mui/material';
 
-export default function BasicButtons() {
+export default function Checkbox({ label, checked, onChange }) {
   return (
-    <ForgotPasswordLink href="/forgot-password">
-      Forgot Password
-    </ForgotPasswordLink>
+    <FormControlLabel
+      control={
+        <MuiCheckbox
+          checked={checked}
+          onChange={onChange}
+          color="primary"
+        />
+      }
+      label={label}
+    />
   );
 }

@@ -209,7 +209,7 @@ export default function SignInSheet() {
               <Password />
             </div>
             <div style={{ margin: "20px 0" }}>
-              <CheckboxAgrement />
+              <Checkbox />
             </div>
             <div style={{ margin: "20px 0" }}>
             <LogInButton/>

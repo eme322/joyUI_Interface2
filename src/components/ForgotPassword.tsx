@@ -2,27 +2,28 @@ import * as React from 'react';
 import Checkbox from '@mui/material/Checkbox';
 import FormControlLabel from '@mui/material/FormControlLabel';
 import Link from '@mui/material/Link';
+import Typography from '@mui/material/Typography';
 
-export default function TermsAgreement() {
-  const [checked, setChecked] = React.useState(false);
+export default function CheckboxAgreement() {
+  const [isChecked, setIsChecked] = React.useState(false);
 
-  const handleChange = (event) => {
-    setChecked(event.target.checked);
+  const handleCheckboxChange = (event) => {
+    setIsChecked(event.target.checked);
   };
 
   return (
-    <div>
+    <React.Fragment>
       <FormControlLabel
         control={
           <Checkbox
-            checked={checked}
-            onChange={handleChange}
+            checked={isChecked}
+            onChange={handleCheckboxChange}
             name="agreeToTerms"
             color="primary"
           />
         }
         label={
-          <React.Fragment>
+          <Typography>
             I agree to the{' '}
             <Link href="/terms" underline="hover">
               Terms of Service
@@ -30,13 +31,20 @@ export default function TermsAgreement() {
             and{' '}
             <Link href="/privacy-policy" underline="hover">
               Privacy Policy
-            </Link>
-          </React.Fragment>
+            </Link>.
+          </Typography>
         }
       />
-    </div>
+      
+    
+      /* <Typography variant="body2">
+        <Link href="/forgot-password" underline="hover">
+          Forgot Password?
+        </Link>
+      </Typography>
+    </React.Fragment>
   );
-}
+} */
 
 
 

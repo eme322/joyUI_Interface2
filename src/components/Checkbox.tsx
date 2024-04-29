@@ -36,30 +36,3 @@ export default function CheckboxAgreement() {
         }
       />
       
-    
-      /* <Typography variant="body2">
-        <Link href="/forgot-password" underline="hover">
-          Forgot Password?
-        </Link>
-      </Typography>
-    </React.Fragment>
-  );
-} */
-
-
-
-
-
-
-/*
-import * as React from 'react';
-import { ForgotPasswordLink } from './styles';
-
-export default function BasicButtons() {
-  return (
-    <ForgotPasswordLink href="/forgot-password">
-      Forgot Password
-    </ForgotPasswordLink>
-  );
-}
-*/

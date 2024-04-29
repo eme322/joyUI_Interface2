@@ -1,4 +1,4 @@
- import React from 'react';
+import React from 'react';
 import Checkbox from '@mui/material/Checkbox';
 import FormControlLabel from '@mui/material/FormControlLabel';
 import Link from '@mui/material/Link';
@@ -7,7 +7,7 @@ import Typography from '@mui/material/Typography';
 function CheckboxAgrement() {
   const [isChecked, setIsChecked] = React.useState(false);
 
-  const handleCheckboxChange = (event) => {
+  const handleCheckboxChange = (event: React.ChangeEvent<HTMLInputElement> ) => {
     setIsChecked(event.target.checked);
   };
 

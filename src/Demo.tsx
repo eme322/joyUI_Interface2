@@ -127,6 +127,7 @@ export default function CreateAccount() {
           alt="LinkedIn logo"
           style={{ cursor: 'pointer' }}
         />
+        </div>
       </Card>
     </div>
   );

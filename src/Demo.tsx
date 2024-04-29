@@ -64,9 +64,8 @@ export default function CreateAccount() {
       >
           <div style={{ width: "100%", textAlign: "center" }}>
           <img id="logo" src="https://www.boardx.us/content/images/2023/11/BoardX-Logo.png" alt="BoardX Logo" />
-         
-            <Typography
-            sx={{
+          <Typography
+          sx={{
               color: "black",
               textAlign: 'center',
               width: '100%',
@@ -79,8 +78,30 @@ export default function CreateAccount() {
             Collaboration starts here 🚀
 
 
-            
+
           </Typography>
+          {
+          <FormControl>
+            <div style={{ margin: "20px 0" }}>
+              <Email />
+            </div>
+            <div style={{ margin: "20px 0" }}>
+              <Password />
+            </div>
+            <div style={{ margin: "20px 0" }}>
+              <LogInButton />
+            </div>
+          </FormControl>
+          }
+        </div>
+      </Card>
+    </div>
+  );
+}
+
+
+            
+         /* </Typography>
           <Name />
           <Email />
           <Password />
@@ -113,4 +134,4 @@ export default function CreateAccount() {
       </Card>
     </div>
   );
-}
+} */

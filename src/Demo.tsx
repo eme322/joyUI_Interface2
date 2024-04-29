@@ -76,11 +76,6 @@ export default function CreateAccount() {
             variant="h4"
           >
             Collaboration starts here 🚀 */
-
-
-     
-
-
             
          /* </Typography>
           <Name />
@@ -128,6 +123,7 @@ import Name from "./components/Name";
 import Email from "./components/Email"; 
 import Password from "./components/Password";
 import Checkbox from "@mui/material/Checkbox";
+import CreateAccount from "./components/CreateAccount";
 import FormControlLabel from "@mui/material/FormControlLabel";
 import Button from "@mui/material/Button";
 import IconButton from "@mui/material/IconButton";
@@ -181,8 +177,8 @@ export default function CreateAccount() {
               </>
             ) : (
               <>
-                <LogInButton />
-                <ForgotPassword />
+                <CreateAccount />
+                <checkbox />
               </>
             )}
           </FormControl>

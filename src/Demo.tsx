@@ -192,7 +192,7 @@ export default function SignInSheet() {
                 Sign up
               </Link>
             </Typography>
-            <Typography sx={{ margin: '20px 0' }} variant="body2">
+            <Typography sx={{ margin: '20px 0' }}>
               or
             </Typography>
             <img

@@ -62,13 +62,10 @@ export default function CreateAccount() {
           paddingBottom: '40px',
         }}
       >
-        <div style={{ width: "100%", textAlign: "center" }}>
-          <img id="logo"
-            src="https://www.boardx.us/content/images/2023/11/BoardX-Logo.png"
-            alt="BoardX Logo"/>
-           // style={{ margin: '0 0 20px' }}
-        
-          <Typography
+          <div style={{ width: "100%", textAlign: "center" }}>
+          <img id="logo" src="https://www.boardx.us/content/images/2023/11/BoardX-Logo.png" alt="BoardX Logo" />
+         
+            <Typography
             sx={{
               color: "black",
               textAlign: 'center',

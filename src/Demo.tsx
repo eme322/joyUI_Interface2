@@ -93,8 +93,22 @@ export default function SignInSheet() {
               <LogInButton />
             </div>
             <div style={{ margin: "20px 0" }}>
-              <ForgotPassword />
+              <ForgotPassword />  
             </div>
+
+
+              <Typography sx={{ margin: '20px 0' }}>
+              Don't have an account?{' '}
+              <Link href="/sign-up" underline="hover">
+                Sign up
+              </Link>
+            </Typography>
+            <Typography sx={{ margin: '20px 0' }} variant="body2">
+              or continue with
+            </Typography>
+            {/* Social media or other external login options could be added here */}
+          </FormControl>
+            
           </FormControl>
           }
         </div>

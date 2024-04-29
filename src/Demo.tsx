@@ -83,13 +83,16 @@ export default function CreateAccount() {
           {
           <FormControl>
             <div style={{ margin: "20px 0" }}>
+              <Name />
+            </div>
+            <div style={{ margin: "20px 0" }}>
               <Email />
             </div>
             <div style={{ margin: "20px 0" }}>
               <Password />
             </div>
             <div style={{ margin: "20px 0" }}>
-              <LogInButton />
+              <Create Account />
             </div>
           </FormControl>
           }

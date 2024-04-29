@@ -104,9 +104,19 @@ export default function SignInSheet() {
               </Link>
             </Typography>
             <Typography sx={{ margin: '20px 0' }} variant="body2">
-              or continue with
+              or
             </Typography>
-            {/* Social media or other external login options could be added here */}
+
+            <img
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/LinkedIn_logo_initials.png/600px-LinkedIn_logo_initials.png?20140125013055"
+            alt="LinkedIn logo"
+            style={{
+              cursor: 'pointer',
+              margin: '20px 0', // Add margin to space it out from the text
+              width: '30px', // Set the width to match your design
+              height: 'auto', // Maintain aspect ratio
+            }}
+          />
           </FormControl>
         </div>
       </Card>

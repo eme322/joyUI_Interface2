@@ -78,29 +78,63 @@ export default function CreateAccount() {
             Collaboration starts here 🚀
 
 
-
-          </Typography>
-          {
-          <FormControl>
-            <div style={{ margin: "20px 0" }}>
-              <Name />
-            </div>
-            <div style={{ margin: "20px 0" }}>
-              <Email />
-            </div>
-            <div style={{ margin: "20px 0" }}>
-              <Password />
-            </div>
-            <div style={{ margin: "20px 0" }}>
-              <Create Account />
-            </div>
-          </FormControl>
-          }
-        </div>
+          <FormControl component="fieldset" fullWidth>
+          {isCreatingAccount && <Name />}
+          <Email />
+          <Password />
+          {isCreatingAccount ? (
+            <>
+              <FormControlLabel
+                control={<Checkbox />}
+                label="I agree to the Terms of Service and Privacy Policy"
+              />
+              <Button variant="contained" fullWidth onClick={() => console.log("Create Account")}>
+                Create Account
+              </Button>
+            </>
+          ) : (
+            <>
+              <LogInButton />
+              <ForgotPassword />
+            </>
+          )}
+        </FormControl>
+        
+        <Typography style={{ marginTop: 20 }}>
+          {isCreatingAccount ? (
+            <>
+              Already have an account?{' '}
+              <Link href="#" onClick={() => setIsCreatingAccount(false)} underline="hover">
+                Sign in instead
+              </Link>
+            </>
+          ) : (
+            <>
+              Need an account?{' '}
+              <Link href="#" onClick={() => setIsCreatingAccount(true)} underline="hover">
+                Create one!
+              </Link>
+            </>
+          )}
+        </Typography>
+        
+        <Typography variant="body2" style={{ marginTop: 20, marginBottom: 20 }}>
+          or
+        </Typography>
+        
+        <img
+          src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/LinkedIn_logo_initials.png/640px-LinkedIn_logo_initials.png"
+          alt="LinkedIn logo"
+          style={{ cursor: 'pointer' }}
+        />
       </Card>
     </div>
   );
 }
+
+
+
+
 
 
             

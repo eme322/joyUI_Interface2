@@ -131,7 +131,7 @@ import Name from "./components/Name";
 import Email from "./components/Email";
 import Password from "./components/Password";
 import LogInButton from "./components/LogInButton";
-import CheckboxAgrement from "./components/Checkbox"; 
+import Checkbox from "./components/Checkbox"; 
 import { extendTheme } from "@mui/joy";
 import FormControl from "@mui/joy/FormControl";
 import Link from "@mui/material/Link";

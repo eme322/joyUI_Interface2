@@ -123,7 +123,7 @@ export default function SignInSheet() {
       */
 
 
-// joyUI_Interface1/src/Demo.tsx
+// joyUI_Interface2/src/Demo.tsx
 import * as React from "react";
 import Card from "@mui/joy/Card";
 import Typography from "@mui/joy/Typography";
@@ -217,15 +217,17 @@ export default function SignInSheet() {
             <LogInButton/>
             </div>
             <Typography sx={{ margin: '20px 0' }}>
-              Already have an account?{' '}
-              <Link 
-                href="/sign-in" 
-                underline="hover">
-                style={{ color: '#F21D6B' }}
-                >
-                Sign in instead
-              </Link>
+            Already have an account?{' '}
+            <Link 
+            href="/sign-in" 
+            underline="hover"
+             style={{ color: '#F21D6B' }}
+              >
+            Sign in instead
+            </Link>
             </Typography>
+        
+            
             <Typography sx={{ margin: '20px 0' }}>
               or
             </Typography>

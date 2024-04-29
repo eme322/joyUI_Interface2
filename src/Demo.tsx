@@ -5,8 +5,8 @@ import Typography from "@mui/joy/Typography";
 import Email from "./components/Email";
 import Password from "./components/Password";
 import AspectRatio from "@mui/joy/AspectRatio";
-import LogInButton from "./components/LogInButton";
-import ForgotPassword from "./components/ForgotPassword";
+//import LogInButton from "./components/LogInButton";
+//import ForgotPassword from "./components/ForgotPassword";
 import { extendTheme } from "@mui/joy";
 import FormControl from "@mui/joy/FormControl";
 
@@ -85,12 +85,14 @@ export default function SignInSheet() {
             <div style={{ margin: "20px 0" }}>
               <Password />
             </div>
+            /*
             <div style={{ margin: "20px 0" }}>
               <LogInButton />
             </div>
             <div style={{ margin: "20px 0" }}>
               <ForgotPassword />
             </div>
+            */
           </FormControl>
           }
         </div>

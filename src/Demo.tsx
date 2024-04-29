@@ -97,9 +97,9 @@ export default function SignInSheet() {
             </div>
 
             <Typography sx={{ margin: '20px 0' }}>
-              Don't have an account?{' '}
-              <Link href="/sign-up" underline="hover">
-                Sign up
+              Already have an account?{' '}
+              <Link href="/sign in instead" underline="hover">
+                Sign in instead
               </Link>
             </Typography>
             <Typography sx={{ margin: '20px 0' }}>

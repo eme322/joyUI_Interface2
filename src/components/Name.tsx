@@ -8,7 +8,7 @@ import FormLabel from '@mui/joy/FormLabel';
 export default function Name() {
   return (
     <FormControl>
-      <FormLabel htmlFor="email-input">Email</FormLabel>
+      <FormLabel htmlFor="email-input">Name</FormLabel>
       <Input
         id="email-input"
         type="email" 

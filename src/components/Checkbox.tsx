@@ -4,7 +4,7 @@ import FormControlLabel from '@mui/material/FormControlLabel';
 import Link from '@mui/material/Link';
 import Typography from '@mui/material/Typography';
 
-function Checkbox() {
+function CheckboxAgrement() {
   const [isChecked, setIsChecked] = React.useState(false);
 
   const handleCheckboxChange = (event) => {
@@ -37,6 +37,6 @@ function Checkbox() {
   );
 }
 
-export default Checkbox;
+export default CheckboxAgrement;
 
       

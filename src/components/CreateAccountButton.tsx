@@ -1,7 +1,9 @@
+
+//CreateAccountButton.tsx
 import * as React from 'react';
 import Button from '@mui/joy/Button';
 
-export default function CreateAccount() {
+export default function CreateAccountButton() {
   const handleClick = () => {
     console.log("Button clicked!");
     

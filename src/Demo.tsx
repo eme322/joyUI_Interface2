@@ -236,6 +236,7 @@ export default function SignInSheet() {
               alt="LinkedIn logo"
               style={{
                 cursor: 'pointer',
+                textAlign: 'center',
                 margin: '20px 0',
                 width: '30px',
                 height: 'auto',

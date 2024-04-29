@@ -1,7 +1,7 @@
 import * as React from 'react';
 import Button from '@mui/joy/Button';
 
-export default function BasicButtons() {
+export default function CreateAccount() {
   const handleClick = () => {
     console.log("Button clicked!");
     

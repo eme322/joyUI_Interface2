@@ -3,7 +3,7 @@ import * as React from "react";
 import Card from "@mui/joy/Card";
 import Typography from '@mui/material/Typography';
 import Link from '@mui/material/Link';
-import CreateAccount from "./components/CreateAccount";
+import CreateAccount from "./components/CreateAccount"; 
 import Name from "./components/Name";
 import Email from "./components/Email"; 
 import Password from "./components/Password";

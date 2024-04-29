@@ -96,27 +96,31 @@ export default function SignInSheet() {
               <ForgotPassword />  
             </div>
 
+            <>
+  <Typography sx={{ margin: '20px 0' }}>
+    Don't have an account?{' '}
+    <Link href="/sign-up" underline="hover">
+      Sign up
+    </Link>
+  </Typography>
+  <Typography sx={{ margin: '20px 0' }} variant="body2">
+    or
+  </Typography>
+  <img
+    src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/LinkedIn_logo_initials.png/600px-LinkedIn_logo_initials.png?20140125013055"
+    alt="LinkedIn logo"
+    style={{
+      cursor: 'pointer',
+      margin: '20px 0',
+      width: '30px',
+      height: 'auto',
+    }}
+  />
+</>
 
-              <Typography sx={{ margin: '20px 0' }}>
-              Don't have an account?{' '}
-              <Link href="/sign-up" underline="hover">
-                Sign up
-              </Link>
-            </Typography>
-            <Typography sx={{ margin: '20px 0' }} variant="body2">
-              or
-            </Typography>
 
-            <img
-            src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/LinkedIn_logo_initials.png/600px-LinkedIn_logo_initials.png?20140125013055"
-            alt="LinkedIn logo"
-            style={{
-              cursor: 'pointer',
-              margin: '20px 0', // Add margin to space it out from the text
-              width: '30px', // Set the width to match your design
-              height: 'auto', // Maintain aspect ratio
-            }}
-          />
+
+            
           </FormControl>
         </div>
       </Card>

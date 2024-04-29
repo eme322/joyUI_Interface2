@@ -108,9 +108,6 @@ export default function SignInSheet() {
             </Typography>
             {/* Social media or other external login options could be added here */}
           </FormControl>
-            
-          </FormControl>
-          }
         </div>
       </Card>
     </div>

@@ -1,5 +1,4 @@
 // joyUI_Interface1/src/Demo.tsx
-/*
 import * as React from "react";
 import Card from "@mui/joy/Card";
 import Typography from "@mui/joy/Typography";
@@ -79,9 +78,7 @@ export default function SignInSheet() {
             level="h4"
           >
              Collaboration starts here 🚀
-            
           </Typography>
-          {
           <FormControl>
             <div style={{ margin: "20px 0" }}>
               <Name />
@@ -98,35 +95,41 @@ export default function SignInSheet() {
             <div style={{ margin: "20px 0" }}>
               <ForgotPassword />  
             </div>
-            <>
-  <Typography sx={{ margin: '20px 0' }}>
-    Don't have an account?{' '}
-    <Link href="/sign-up" underline="hover">
-      Sign up
-    </Link>
-  </Typography>
-  <Typography sx={{ margin: '20px 0' }} variant="body2">
-    or
-  </Typography>
-  <img
-    src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/LinkedIn_logo_initials.png/600px-LinkedIn_logo_initials.png?20140125013055"
-    alt="LinkedIn logo"
-    style={{
-      cursor: 'pointer',
-      margin: '20px 0',
-      width: '30px',
-      height: 'auto',
-    }}
-  />
-</>
 
-         </FormControl>
+            <Typography sx={{ margin: '20px 0' }}>
+              Don't have an account?{' '}
+              <Link href="/sign-up" underline="hover">
+                Sign up
+              </Link>
+            </Typography>
+            <Typography sx={{ margin: '20px 0' }}>
+              or
+            </Typography>
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/LinkedIn_logo_initials.png/600px-LinkedIn_logo_initials.png?20140125013055"
+              alt="LinkedIn logo"
+              style={{
+                cursor: 'pointer',
+                margin: '20px 0',
+                width: '30px',
+                height: 'auto',
+              }}
+            />
+          </FormControl>
         </div>
       </Card>
     </div>
   );
 }
-*/
+            
+
+
+
+
+
+
+
+/*
 
 // joyUI_Interface1/src/Demo.tsx
 import * as React from "react";
@@ -247,6 +250,7 @@ export default function SignInSheet() {
   
           }}>*/
 
+/*
             
             Collaboration starts here 🚀
           </Typography>
@@ -292,7 +296,7 @@ export default function SignInSheet() {
     </div>
   );
 }
-
+*/
   
         
 

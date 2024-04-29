@@ -89,6 +89,7 @@ export default function CreateAccount() {
           <Button
             variant="contained"
             sx={{ width: '100%', marginTop: '20px' }}
+            onClick={handleSubmit}  // Ensure this is triggering as expected
           >
             Create Account
           </Button>

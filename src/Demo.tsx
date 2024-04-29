@@ -323,7 +323,7 @@ export default function SignInSheet() {
               }}>
               Collaboration starts here 🚀
             </Typography>
-            <FormControl fullWidth>
+            <FormControl sx={{ width: '100%' }}>
               <Name />
               <Email />
               <Password />

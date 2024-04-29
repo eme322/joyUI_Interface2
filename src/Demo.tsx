@@ -88,14 +88,12 @@ export default function SignInSheet() {
             </div>
             <div style={{ margin: "20px 0" }}>
               <Password />
+              <div style={{ margin: "20px 0" }}>
+              <Checkbox />
             </div>
             <div style={{ margin: "20px 0" }}>
               <LogInButton />
             </div>
-            <div style={{ margin: "20px 0" }}>
-              <Checkbox />  
-            </div>
-
             <Typography sx={{ margin: '20px 0' }}>
               Already have an account?{' '}
               <Link href="/sign in instead" underline="hover">

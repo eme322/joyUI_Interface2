@@ -24,6 +24,8 @@ const theme = extendTheme({
   },
 });
 
+<div>Hello World</div>
+
 export default function CreateAccount() {
   const [email, setEmail] = React.useState('');
   const [error, setError] = React.useState(false);

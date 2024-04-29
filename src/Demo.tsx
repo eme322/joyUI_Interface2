@@ -2,7 +2,7 @@
 import * as React from "react";
 import Card from "@mui/joy/Card";
 import Typography from "@mui/joy/Typography";
-
+import Name from "./components/Name";
 import Email from "./components/Email";
 import Password from "./components/Password";
 import AspectRatio from "@mui/joy/AspectRatio";
@@ -58,8 +58,8 @@ export default function SignInSheet() {
           justifyContent: "center",
           padding: "20px",
           backgroundColor: "white",
-          boxShadow: "0px 4px 20px rgba(0, 0, 0, 0.3)", // Adjusted boxShadow value
-          paddingBottom: '40px' // Add more padding to the bottom of the card
+          boxShadow: "0px 4px 20px rgba(0, 0, 0, 0.3)",
+          paddingBottom: '40px' 
         })}
       >
           <div style={{ width: "100%", textAlign: "center" }}>
@@ -75,11 +75,14 @@ export default function SignInSheet() {
             }} 
             level="h4"
           >
-            Welcome to BoardX! 👋
+             Collaboration starts here 🚀
             
           </Typography>
           {
           <FormControl>
+            <div style={{ margin: "20px 0" }}>
+              <Name />
+            </div>
             <div style={{ margin: "20px 0" }}>
               <Email />
             </div>

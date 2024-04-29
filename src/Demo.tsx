@@ -75,7 +75,7 @@ export default function CreateAccount() {
             }}
             variant="h4"
           >
-            Collaboration starts here 🚀 */
+            Collaboration starts here 🚀
             
           </Typography>
           <Name />

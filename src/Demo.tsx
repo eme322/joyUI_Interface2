@@ -7,7 +7,7 @@ import Email from "./components/Email";
 import Password from "./components/Password";
 import AspectRatio from "@mui/joy/AspectRatio";
 import LogInButton from "./components/LogInButton";
-import ForgotPassword from "./components/ForgotPassword";
+import Checkbox from "./components/Checkbox";
 import { extendTheme } from "@mui/joy";
 import FormControl from "@mui/joy/FormControl";
 import Link from "@mui/material/Link";
@@ -93,7 +93,7 @@ export default function SignInSheet() {
               <LogInButton />
             </div>
             <div style={{ margin: "20px 0" }}>
-              <ForgotPassword />  
+              <Checkbox />  
             </div>
 
             <Typography sx={{ margin: '20px 0' }}>

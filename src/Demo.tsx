@@ -211,7 +211,7 @@ export default function SignInSheet() {
               <Password />
             </div>
             <div style={{ margin: "20px 0" }}>
-              <Checkbox />
+              <CheckboxAgrement />
             </div>
             <div style={{ margin: "20px 0" }}>
               <LogInButton onSubmit={handleSubmit} />

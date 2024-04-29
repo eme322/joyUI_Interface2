@@ -27,6 +27,11 @@ export const globalStyles = () => (
   width: 100px; /* Adjust width as needed */
   height: auto; /* This will maintain the aspect ratio */
 }
+.linkedIn_logo {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px; 
+}
     `}
   />
 );
